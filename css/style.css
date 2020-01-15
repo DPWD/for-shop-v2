@@ -46,6 +46,9 @@ header{
 	text-align: center;
 	
 }
+.central-text span{
+	font-size: 20px;
+}
 .central-text span:before{
 	content: '';
     width: 20px;
@@ -116,12 +119,12 @@ header{
 	justify-content: center;
 	-ms-align-items: center;
 	align-items: center;
-	width: 150px;
-	height: 40px;
+	width: 450px;
+	height: 60px;
 	border-radius: 50px;
 	border:2px solid #FFDB00;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 22px;
 	color: #FFDB00;
 }
 .number a:hover{
@@ -149,7 +152,7 @@ header{
 	-ms-align-items: center;
 	justify-content: center;
 	align-items: center;
-	height: 18vh;
+	height: 14vh;
 	text-align: center;
 }
 .mode h3{
@@ -164,14 +167,18 @@ header{
 }
 
 @media (max-width: 480px){
-	header{
-		
-	}
+	
 	.central-text h1{
 		font-size: 25px;
 	}
 	.central-text h2{
 		font-size: 18px;
+	}
+	.central-text span{
+		font-size: 16px;
+	}
+	.number a{
+		width: 287px;
 	}
 	.info{
 		-webkit-flex-direction: column-reverse;
@@ -185,5 +192,6 @@ header{
 	}
 	.mode{
 		height: 10vh;
+		margin: 10px;
 	}
 }
